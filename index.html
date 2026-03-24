@@ -135,9 +135,7 @@
       transform: translateY(-3px);
     }
 
-    .hero {
-      padding: 86px 0 60px;
-    }
+    .hero { padding: 86px 0 60px; }
 
     .hero-grid {
       display: grid;
@@ -188,16 +186,8 @@
       box-shadow: var(--shadow);
     }
 
-    .stat strong {
-      display: block;
-      font-size: 26px;
-      margin-bottom: 6px;
-    }
-
-    .stat span {
-      color: var(--muted);
-      font-size: 14px;
-    }
+    .stat strong { display: block; font-size: 26px; margin-bottom: 6px; }
+    .stat span   { color: var(--muted); font-size: 14px; }
 
     .hero-panel {
       background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.04));
@@ -212,11 +202,9 @@
     .hero-panel::before {
       content: "";
       position: absolute;
-      width: 180px;
-      height: 180px;
+      width: 180px; height: 180px;
       background: radial-gradient(circle, rgba(124,156,255,0.28), transparent 65%);
-      right: -50px;
-      top: -50px;
+      right: -50px; top: -50px;
       pointer-events: none;
     }
 
@@ -258,20 +246,10 @@
       padding: 16px;
     }
 
-    .mini-card strong {
-      display: block;
-      margin-bottom: 8px;
-    }
+    .mini-card strong { display: block; margin-bottom: 8px; }
+    .mini-card p, .mini-card span { color: var(--muted); font-size: 14px; margin: 0; }
 
-    .mini-card p, .mini-card span {
-      color: var(--muted);
-      font-size: 14px;
-      margin: 0;
-    }
-
-    section {
-      padding: 42px 0;
-    }
+    section { padding: 42px 0; }
 
     .section-head {
       display: flex;
@@ -287,11 +265,7 @@
       letter-spacing: -0.03em;
     }
 
-    .section-head p {
-      color: var(--muted);
-      max-width: 640px;
-      margin: 8px 0 0;
-    }
+    .section-head p { color: var(--muted); max-width: 640px; margin: 8px 0 0; }
 
     .categories {
       display: grid;
@@ -307,30 +281,19 @@
       transition: 0.25s ease;
     }
 
-    .category-card {
-      padding: 22px;
-    }
+    .category-card { padding: 22px; }
 
     .category-card .icon {
-      width: 48px;
-      height: 48px;
+      width: 48px; height: 48px;
       border-radius: 16px;
-      display: grid;
-      place-items: center;
+      display: grid; place-items: center;
       background: rgba(255,255,255,0.08);
       font-size: 22px;
       margin-bottom: 16px;
     }
 
-    .category-card h3, .tool-card h3, .pricing-card h3 {
-      margin: 0 0 8px;
-      font-size: 20px;
-    }
-
-    .category-card p, .tool-card p, .feature-box p, .testimonial p, .pricing-card p {
-      margin: 0;
-      color: var(--muted);
-    }
+    .category-card h3, .tool-card h3, .pricing-card h3 { margin: 0 0 8px; font-size: 20px; }
+    .category-card p, .tool-card p, .feature-box p, .testimonial p, .pricing-card p { margin: 0; color: var(--muted); }
 
     .tool-grid {
       display: grid;
@@ -338,11 +301,7 @@
       gap: 18px;
     }
 
-    .tool-card {
-      padding: 22px;
-      position: relative;
-      overflow: hidden;
-    }
+    .tool-card { padding: 22px; position: relative; overflow: hidden; }
 
     .tool-top {
       display: flex;
@@ -353,11 +312,9 @@
     }
 
     .tool-logo {
-      width: 52px;
-      height: 52px;
+      width: 52px; height: 52px;
       border-radius: 18px;
-      display: grid;
-      place-items: center;
+      display: grid; place-items: center;
       font-size: 22px;
       background: linear-gradient(135deg, rgba(124,156,255,0.24), rgba(126,240,198,0.16));
       border: 1px solid rgba(255,255,255,0.08);
@@ -373,17 +330,8 @@
       color: #e6ebff;
     }
 
-    .tool-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 16px 0 18px;
-    }
-
-    .tool-link {
-      font-weight: 700;
-      color: var(--secondary);
-    }
+    .tool-meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 18px; }
+    .tool-link { font-weight: 700; color: var(--secondary); }
 
     .features {
       display: grid;
@@ -391,15 +339,8 @@
       gap: 18px;
     }
 
-    .feature-box {
-      padding: 24px;
-    }
-
-    .feature-box strong {
-      display: block;
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
+    .feature-box { padding: 24px; }
+    .feature-box strong { display: block; font-size: 18px; margin-bottom: 10px; }
 
     .testimonials {
       display: grid;
@@ -407,30 +348,19 @@
       gap: 18px;
     }
 
-    .testimonial {
-      padding: 24px;
-    }
+    .testimonial { padding: 24px; }
 
-    .profile {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-top: 18px;
-    }
+    .profile { display: flex; align-items: center; gap: 12px; margin-top: 18px; }
 
     .avatar {
-      width: 46px;
-      height: 46px;
+      width: 46px; height: 46px;
       border-radius: 50%;
-      display: grid;
-      place-items: center;
+      display: grid; place-items: center;
       background: linear-gradient(135deg, rgba(124,156,255,0.3), rgba(255,211,110,0.25));
       font-weight: 800;
     }
 
-    .cta {
-      padding: 28px 0 70px;
-    }
+    .cta { padding: 28px 0 70px; }
 
     .cta-box {
       padding: 34px;
@@ -450,11 +380,7 @@
       letter-spacing: -0.03em;
     }
 
-    .cta-box p {
-      margin: 0;
-      color: var(--muted);
-      max-width: 600px;
-    }
+    .cta-box p { margin: 0; color: var(--muted); max-width: 600px; }
 
     .email-form {
       display: flex;
@@ -474,15 +400,9 @@
       outline: none;
     }
 
-    .email-form button {
-      border: 0;
-      cursor: pointer;
-    }
+    .email-form button { border: 0; cursor: pointer; }
 
-    footer {
-      padding: 18px 0 32px;
-      color: var(--muted);
-    }
+    footer { padding: 18px 0 32px; color: var(--muted); }
 
     .footer-row {
       display: flex;
@@ -493,15 +413,113 @@
       padding-top: 22px;
     }
 
+    /* ── 댓글 섹션 ── */
+    #comments { padding: 48px 0 72px; }
+
+    .comment-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .comment-form-wrap {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius);
+      padding: 26px;
+      box-shadow: var(--shadow);
+      position: sticky;
+      top: 94px;
+    }
+
+    .comment-form-wrap h3 { margin: 0 0 18px; font-size: 18px; letter-spacing: -0.02em; }
+
+    .cf-field { margin-bottom: 14px; }
+
+    .cf-field label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+
+    .cf-field input,
+    .cf-field textarea {
+      width: 100%;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 14px;
+      padding: 12px 14px;
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+      resize: none;
+    }
+
+    .cf-field input:focus,
+    .cf-field textarea:focus { border-color: var(--primary); }
+
+    .cf-submit { width: 100%; margin-top: 4px; border: 0; cursor: pointer; font-size: 15px; }
+    .cf-status { margin-top: 10px; font-size: 13px; color: var(--secondary); min-height: 18px; text-align: center; }
+
+    .comment-list-wrap { display: flex; flex-direction: column; gap: 14px; }
+    .comment-empty { color: var(--muted); font-size: 15px; padding: 24px 0; text-align: center; }
+
+    .comment-item {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.09);
+      border-radius: 18px;
+      padding: 18px 20px;
+      animation: fadeUp 0.3s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .comment-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+
+    .comment-avatar {
+      width: 36px; height: 36px;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-size: 12px; font-weight: 800;
+      background: linear-gradient(135deg, rgba(124,156,255,0.35), rgba(126,240,198,0.25));
+      border: 1px solid rgba(255,255,255,0.1);
+      flex-shrink: 0;
+    }
+
+    .comment-meta { flex: 1; }
+    .comment-nickname { font-weight: 700; font-size: 14px; }
+    .comment-time { font-size: 12px; color: var(--muted); margin-top: 1px; }
+    .comment-body { font-size: 14px; color: #d8deef; line-height: 1.65; white-space: pre-wrap; }
+
+    .comment-skeleton {
+      background: linear-gradient(90deg,
+        rgba(255,255,255,0.05) 25%,
+        rgba(255,255,255,0.09) 50%,
+        rgba(255,255,255,0.05) 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.4s infinite;
+      border-radius: 12px;
+      height: 80px;
+    }
+
+    @keyframes shimmer {
+      0%   { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
     @media (max-width: 1080px) {
       .hero-grid, .cta-box,
       .categories, .tool-grid, .features, .testimonials {
         grid-template-columns: 1fr 1fr;
       }
+      .hero-grid { grid-template-columns: 1fr; }
+    }
 
-      .hero-grid {
-        grid-template-columns: 1fr;
-      }
+    @media (max-width: 900px) {
+      .comment-layout { grid-template-columns: 1fr; }
+      .comment-form-wrap { position: static; }
     }
 
     @media (max-width: 720px) {
@@ -509,19 +527,10 @@
       .hero, section { padding-top: 28px; }
       .hero-stats,
       .categories, .tool-grid, .features, .testimonials,
-      .cta-box, .mini-grid {
-        grid-template-columns: 1fr;
-      }
-      .section-head {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-      .nav {
-        min-height: 68px;
-      }
-      .hero h1 {
-        font-size: 42px;
-      }
+      .cta-box, .mini-grid { grid-template-columns: 1fr; }
+      .section-head { flex-direction: column; align-items: flex-start; }
+      .nav { min-height: 68px; }
+      .hero h1 { font-size: 42px; }
     }
   </style>
 </head>
@@ -557,21 +566,11 @@
             <a class="secondary-btn" href="#categories">카테고리 탐색</a>
           </div>
           <div class="hero-stats">
-            <div class="stat">
-              <strong>30+</strong>
-              <span>엄선된 AI 서비스</span>
-            </div>
-            <div class="stat">
-              <strong>6개</strong>
-              <span>업무 중심 카테고리</span>
-            </div>
-            <div class="stat">
-              <strong>1분</strong>
-              <span>내게 맞는 툴 찾기</span>
-            </div>
+            <div class="stat"><strong>30+</strong><span>엄선된 AI 서비스</span></div>
+            <div class="stat"><strong>6개</strong><span>업무 중심 카테고리</span></div>
+            <div class="stat"><strong>1분</strong><span>내게 맞는 툴 찾기</span></div>
           </div>
         </div>
-
         <div class="hero-panel">
           <div class="panel-header">
             <span class="badge">추천 대시보드</span>
@@ -580,22 +579,10 @@
           <div class="panel-window">
             <div class="search-bar">🔎 어떤 작업에 AI를 쓰고 싶나요? 예: 문서 요약, 썸네일 제작, 코드 리뷰</div>
             <div class="mini-grid">
-              <div class="mini-card">
-                <strong>콘텐츠 제작</strong>
-                <p>ChatGPT, Claude, Jasper</p>
-              </div>
-              <div class="mini-card">
-                <strong>디자인 & 이미지</strong>
-                <p>Midjourney, Canva, Leonardo</p>
-              </div>
-              <div class="mini-card">
-                <strong>업무 자동화</strong>
-                <p>Zapier, Make, Notion AI</p>
-              </div>
-              <div class="mini-card">
-                <strong>개발 생산성</strong>
-                <p>GitHub Copilot, Cursor, Perplexity</p>
-              </div>
+              <div class="mini-card"><strong>콘텐츠 제작</strong><p>ChatGPT, Claude, Jasper</p></div>
+              <div class="mini-card"><strong>디자인 & 이미지</strong><p>Midjourney, Canva, Leonardo</p></div>
+              <div class="mini-card"><strong>업무 자동화</strong><p>Zapier, Make, Notion AI</p></div>
+              <div class="mini-card"><strong>개발 생산성</strong><p>GitHub Copilot, Cursor, Perplexity</p></div>
             </div>
           </div>
         </div>
@@ -647,92 +634,45 @@
         </div>
         <div class="tool-grid">
           <article class="tool-card">
-            <div class="tool-top">
-              <div class="tool-logo">💬</div>
-              <span class="tag">Writing</span>
-            </div>
+            <div class="tool-top"><div class="tool-logo">💬</div><span class="tag">Writing</span></div>
             <h3>ChatGPT</h3>
             <p>아이디어 정리, 문서 작성, 요약, 코드 보조까지 폭넓게 활용할 수 있는 범용 AI 어시스턴트.</p>
-            <div class="tool-meta">
-              <span class="tag">문서 초안</span>
-              <span class="tag">브레인스토밍</span>
-              <span class="tag">리서치</span>
-            </div>
+            <div class="tool-meta"><span class="tag">문서 초안</span><span class="tag">브레인스토밍</span><span class="tag">리서치</span></div>
             <a class="tool-link" href="#cta">자세히 보기 →</a>
           </article>
-
           <article class="tool-card">
-            <div class="tool-top">
-              <div class="tool-logo">🧠</div>
-              <span class="tag">Reasoning</span>
-            </div>
+            <div class="tool-top"><div class="tool-logo">🧠</div><span class="tag">Reasoning</span></div>
             <h3>Claude</h3>
             <p>긴 문서 읽기, 구조화된 글쓰기, 문맥 유지가 필요한 작업에 특히 강한 AI 도구.</p>
-            <div class="tool-meta">
-              <span class="tag">긴 문서</span>
-              <span class="tag">리포트</span>
-              <span class="tag">분석</span>
-            </div>
+            <div class="tool-meta"><span class="tag">긴 문서</span><span class="tag">리포트</span><span class="tag">분석</span></div>
             <a class="tool-link" href="#cta">자세히 보기 →</a>
           </article>
-
           <article class="tool-card">
-            <div class="tool-top">
-              <div class="tool-logo">🔍</div>
-              <span class="tag">Search</span>
-            </div>
+            <div class="tool-top"><div class="tool-logo">🔍</div><span class="tag">Search</span></div>
             <h3>Perplexity</h3>
             <p>검색과 요약을 결합해 자료 조사와 빠른 정보 탐색에 적합한 AI 검색 도구.</p>
-            <div class="tool-meta">
-              <span class="tag">출처 기반</span>
-              <span class="tag">빠른 탐색</span>
-              <span class="tag">리서치</span>
-            </div>
+            <div class="tool-meta"><span class="tag">출처 기반</span><span class="tag">빠른 탐색</span><span class="tag">리서치</span></div>
             <a class="tool-link" href="#cta">자세히 보기 →</a>
           </article>
-
           <article class="tool-card">
-            <div class="tool-top">
-              <div class="tool-logo">🖼️</div>
-              <span class="tag">Image</span>
-            </div>
+            <div class="tool-top"><div class="tool-logo">🖼️</div><span class="tag">Image</span></div>
             <h3>Midjourney</h3>
             <p>고퀄리티 이미지, 콘셉트 아트, 무드보드 제작에 자주 활용되는 생성형 비주얼 툴.</p>
-            <div class="tool-meta">
-              <span class="tag">콘셉트아트</span>
-              <span class="tag">무드보드</span>
-              <span class="tag">비주얼</span>
-            </div>
+            <div class="tool-meta"><span class="tag">콘셉트아트</span><span class="tag">무드보드</span><span class="tag">비주얼</span></div>
             <a class="tool-link" href="#cta">자세히 보기 →</a>
           </article>
-
           <article class="tool-card">
-            <div class="tool-top">
-              <div class="tool-logo">🎬</div>
-              <span class="tag">Design</span>
-            </div>
+            <div class="tool-top"><div class="tool-logo">🎬</div><span class="tag">Design</span></div>
             <h3>Canva AI</h3>
             <p>프레젠테이션, 썸네일, SNS 디자인을 빠르게 만들 수 있는 쉬운 비주얼 제작 도구.</p>
-            <div class="tool-meta">
-              <span class="tag">SNS</span>
-              <span class="tag">PPT</span>
-              <span class="tag">썸네일</span>
-            </div>
+            <div class="tool-meta"><span class="tag">SNS</span><span class="tag">PPT</span><span class="tag">썸네일</span></div>
             <a class="tool-link" href="#cta">자세히 보기 →</a>
           </article>
-
           <article class="tool-card">
-            <div class="tool-top">
-              <div class="tool-logo">👨‍💻</div>
-              <span class="tag">Coding</span>
-            </div>
+            <div class="tool-top"><div class="tool-logo">👨‍💻</div><span class="tag">Coding</span></div>
             <h3>GitHub Copilot</h3>
             <p>코드 자동완성, 반복 작업 단축, 빠른 프로토타이핑에 특화된 개발 생산성 도구.</p>
-            <div class="tool-meta">
-              <span class="tag">자동완성</span>
-              <span class="tag">코드리뷰</span>
-              <span class="tag">개발속도</span>
-            </div>
+            <div class="tool-meta"><span class="tag">자동완성</span><span class="tag">코드리뷰</span><span class="tag">개발속도</span></div>
             <a class="tool-link" href="#cta">자세히 보기 →</a>
           </article>
         </div>
@@ -776,33 +716,24 @@
         </div>
         <div class="testimonials">
           <article class="testimonial">
-            <p>“필요한 AI 툴을 카테고리별로 훑어볼 수 있어서 팀원들에게 공유하기 좋았습니다.”</p>
+            <p>"필요한 AI 툴을 카테고리별로 훑어볼 수 있어서 팀원들에게 공유하기 좋았습니다."</p>
             <div class="profile">
               <div class="avatar">PM</div>
-              <div>
-                <strong>서비스 기획자</strong><br />
-                <span style="color: var(--muted);">Product Manager</span>
-              </div>
+              <div><strong>서비스 기획자</strong><br /><span style="color: var(--muted);">Product Manager</span></div>
             </div>
           </article>
           <article class="testimonial">
-            <p>“디자인 툴과 글쓰기 툴이 분리되어 있어 콘텐츠 제작 워크플로우를 짜기 쉬웠어요.”</p>
+            <p>"디자인 툴과 글쓰기 툴이 분리되어 있어 콘텐츠 제작 워크플로우를 짜기 쉬웠어요."</p>
             <div class="profile">
               <div class="avatar">MK</div>
-              <div>
-                <strong>콘텐츠 마케터</strong><br />
-                <span style="color: var(--muted);">Content Marketing</span>
-              </div>
+              <div><strong>콘텐츠 마케터</strong><br /><span style="color: var(--muted);">Content Marketing</span></div>
             </div>
           </article>
           <article class="testimonial">
-            <p>“개발 보조 도구와 리서치 도구를 같이 소개해줘서 프로토타입 제작 속도가 빨라졌습니다.”</p>
+            <p>"개발 보조 도구와 리서치 도구를 같이 소개해줘서 프로토타입 제작 속도가 빨라졌습니다."</p>
             <div class="profile">
               <div class="avatar">FE</div>
-              <div>
-                <strong>프론트엔드 개발자</strong><br />
-                <span style="color: var(--muted);">Frontend Engineer</span>
-              </div>
+              <div><strong>프론트엔드 개발자</strong><br /><span style="color: var(--muted);">Frontend Engineer</span></div>
             </div>
           </article>
         </div>
@@ -817,8 +748,8 @@
             <h2>AI 툴 탐색을 더 쉽게,<br />지금 바로 시작해보세요</h2>
             <p>뉴스레터, 디렉터리, 큐레이션 플랫폼, SaaS 소개 페이지 등으로 확장하기 좋은 구조입니다.</p>
           </div>
-          <form class="email-form" onsubmit="event.preventDefault(); alert('데모 페이지입니다. 연결 로직을 추가해 실제 구독 기능으로 확장할 수 있습니다.');">
-            <input type="email" placeholder="이메일 주소를 입력하세요" aria-label="이메일" />
+          <form class="email-form" id="subscribe-form">
+            <input type="email" id="email-input" placeholder="이메일 주소를 입력하세요" aria-label="이메일" />
             <button class="primary-btn" type="submit">업데이트 받기</button>
           </form>
         </div>
@@ -826,32 +757,148 @@
     </section>
   </main>
 
+  <section id="comments">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="badge">💬 커뮤니티</span>
+          <h2>여러분의 생각을 남겨주세요</h2>
+        </div>
+        <p>추천하고 싶은 AI 툴이나 사용 경험을 자유롭게 공유해보세요.</p>
+      </div>
+      <div class="comment-layout">
+        <div class="comment-form-wrap">
+          <h3>✍️ 댓글 작성</h3>
+          <form id="comment-form">
+            <div class="cf-field">
+              <label for="cf-nickname">닉네임</label>
+              <input type="text" id="cf-nickname" placeholder="익명의 AI 탐험가" maxlength="20" />
+            </div>
+            <div class="cf-field">
+              <label for="cf-content">내용</label>
+              <textarea id="cf-content" rows="5" placeholder="추천 AI 툴이나 사용 경험을 공유해 주세요..."></textarea>
+            </div>
+            <button class="primary-btn cf-submit" type="submit">댓글 남기기</button>
+            <p class="cf-status" id="cf-status"></p>
+          </form>
+        </div>
+        <div class="comment-list-wrap" id="comment-list">
+          <div class="comment-skeleton"></div>
+          <div class="comment-skeleton" style="height:60px; opacity:0.6;"></div>
+          <div class="comment-skeleton" style="height:50px; opacity:0.35;"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer>
     <div class="container footer-row">
       <div>© 2026 AI Toolbox Hub. All rights reserved.</div>
       <div>Landing page template for AI tools curation.</div>
     </div>
-    <!-- CDN으로 Supabase 불러오기 -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
-<script>
-  // Supabase 초기화
-  const supabase = supabase.createClient(
-    'https://sxticssxshiqrxxvhijs.supabase.co',  // Project URL
-'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4dGljc3N4c2hpcXJ4eHZoaWpzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNTE0MDcsImV4cCI6MjA4OTkyNzQwN30.EPnM4X_J_qslhM_dxdoQl78qxaPCyIDQzuLv8shsSz8'                        // anon public 키
-  );
-
-  // 댓글 조회
-  const { data } = await supabase
-    .from('comments')
-    .select('*')
-    .order('created_at', { ascending: false });
-
-  // 댓글 작성
-  await supabase
-    .from('comments')
-    .insert({ nickname: '홍길동', content: '안녕하세요!' });
-</script>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script>
+    const supabaseClient = window.supabase.createClient(
+      'https://sxticssxshiqrxxvhijs.supabase.co',
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN4dGljc3N4c2hpcXJ4eHZoaWpzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNTE0MDcsImV4cCI6MjA4OTkyNzQwN30.EPnM4X_J_qslhM_dxdoQl78qxaPCyIDQzuLv8shsSz8'
+    );
+
+    function formatTime(isoStr) {
+      const d = new Date(isoStr);
+      const pad = n => String(n).padStart(2, '0');
+      return `${d.getFullYear()}.${pad(d.getMonth()+1)}.${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+    }
+
+    function initials(name) {
+      return name.trim().slice(0, 2).toUpperCase() || '익명';
+    }
+
+    function buildCard(c) {
+      const el = document.createElement('article');
+      el.className = 'comment-item';
+      el.innerHTML = `
+        <div class="comment-header">
+          <div class="comment-avatar">${initials(c.nickname || '익명')}</div>
+          <div class="comment-meta">
+            <div class="comment-nickname">${c.nickname || '익명'}</div>
+            <div class="comment-time">${formatTime(c.created_at)}</div>
+          </div>
+        </div>
+        <div class="comment-body">${c.content.replace(/</g,'&lt;')}</div>
+      `;
+      return el;
+    }
+
+    async function loadComments() {
+      const list = document.getElementById('comment-list');
+      const { data, error } = await supabaseClient
+        .from('comments')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+      list.innerHTML = '';
+
+      if (error) {
+        list.innerHTML = '<p class="comment-empty">댓글을 불러오지 못했습니다.</p>';
+        return;
+      }
+      if (!data || data.length === 0) {
+        list.innerHTML = '<p class="comment-empty">아직 댓글이 없습니다. 첫 번째 댓글을 남겨보세요! 🚀</p>';
+        return;
+      }
+      data.forEach(c => list.appendChild(buildCard(c)));
+    }
+
+    document.getElementById('comment-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const nicknameEl = document.getElementById('cf-nickname');
+      const contentEl  = document.getElementById('cf-content');
+      const statusEl   = document.getElementById('cf-status');
+      const btn        = this.querySelector('.cf-submit');
+
+      const nickname = nicknameEl.value.trim() || '익명';
+      const content  = contentEl.value.trim();
+
+      if (!content) {
+        statusEl.style.color = '#ff8080';
+        statusEl.textContent = '내용을 입력해 주세요.';
+        return;
+      }
+
+      btn.disabled = true;
+      btn.textContent = '등록 중...';
+      statusEl.textContent = '';
+
+      const { error } = await supabaseClient
+        .from('comments')
+        .insert({ nickname, content });
+
+      btn.disabled = false;
+      btn.textContent = '댓글 남기기';
+
+      if (error) {
+        statusEl.style.color = '#ff8080';
+        statusEl.textContent = '등록에 실패했습니다: ' + error.message;
+      } else {
+        statusEl.style.color = 'var(--secondary)';
+        statusEl.textContent = '댓글이 등록됐습니다 ✓';
+        nicknameEl.value = '';
+        contentEl.value  = '';
+        await loadComments();
+        setTimeout(() => { statusEl.textContent = ''; }, 3000);
+      }
+    });
+
+    document.getElementById('subscribe-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = document.getElementById('email-input').value;
+      if (!email) return;
+      alert('데모 페이지입니다. 연결 로직을 추가해 실제 구독 기능으로 확장할 수 있습니다.');
+    });
+
+    loadComments();
+  </script>
 </body>
 </html>
